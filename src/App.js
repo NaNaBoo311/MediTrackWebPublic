@@ -13,38 +13,6 @@ import HomePage from "./layouts/home/HomePage";
 import NotificationsPage from "./layouts/notifications/NotificationsPage";
 import SettingsPage from "./layouts/settings/SettingsPage";
 import ChatbotPage from "./layouts/chatbot/ChatbotPage";
-const patientData = {
-  name: "Ho Minh Nhat",
-  age: 20,
-  status: "Stable",
-  record: {
-    birthDate: "2004-01-15",
-    gender: "Male",
-    address: "123 Ly Thuong Kiet, Ha Noi",
-    phone: "0123-456-789",
-    maritalStatus: "Single",
-    email: "nhat.ho@example.com",
-    employment: "Student",
-    insurance: {
-      provider: "Bao Viet",
-      plan: "Standard",
-      id: "BV001",
-    },
-    emergencyContact: {
-      name: "Ho Minh Tam",
-      phone: "0987-654-321",
-      relation: "Father",
-    },
-    medicalHistory: [
-      {
-        condition: "Myopia",
-        medication: "None",
-        allergy: "None",
-        startDate: "2012-09-01",
-      },
-    ],
-  },
-};
 
 function App() {
   return (
